@@ -5,3 +5,4 @@
     $log->pushHandler(new Monolog\Handler\StreamHandler('app.log', Monolog\Logger::WARNING));
     $log->addWarning('some log message');
 ?>
+<p>Check `cf files <app> app/htdocs/app.log`.</p>
