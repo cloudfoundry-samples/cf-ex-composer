@@ -1,24 +1,28 @@
 {
     "_readme": [
         "This file locks the dependencies of your project to a known state",
-        "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file"
+        "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "This file is @generated automatically"
     ],
-    "hash": "5383941fd1b6adcb2f51cab659803f8f",
+    "hash": "3f2be89b9e88c90b1149687acfd6965f",
     "packages": [
         {
             "name": "gregwar/cache",
-            "version": "v1.0.6",
+            "version": "v1.0.10",
             "target-dir": "Gregwar/Cache",
             "source": {
                 "type": "git",
                 "url": "https://github.com/Gregwar/Cache.git",
-                "reference": "0a090f4e0e6693468a399e88b1dd0966a53c3c67"
+                "reference": "0a1a02e4943e95f491b3d2395609247385975622"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Gregwar/Cache/zipball/0a090f4e0e6693468a399e88b1dd0966a53c3c67",
-                "reference": "0a090f4e0e6693468a399e88b1dd0966a53c3c67",
+                "url": "https://api.github.com/repos/Gregwar/Cache/zipball/0a1a02e4943e95f491b3d2395609247385975622",
+                "reference": "0a1a02e4943e95f491b3d2395609247385975622",
                 "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3"
             },
             "type": "library",
             "autoload": {
@@ -32,9 +36,8 @@
             ],
             "authors": [
                 {
-                    "name": "Grégoire Passault",
-                    "email": "g.passault@gmail.com",
-                    "homepage": "http://www.gregwar.com/"
+                    "name": "Gregwar",
+                    "email": "g.passault@gmail.com"
                 }
             ],
             "description": "A lightweight file-system cache system",
@@ -44,27 +47,30 @@
                 "file-system",
                 "system"
             ],
-            "time": "2013-12-01 17:20:12"
+            "time": "2014-09-24 11:23:30"
         },
         {
             "name": "gregwar/image",
-            "version": "v2.0.16",
+            "version": "v2.0.19",
             "target-dir": "Gregwar/Image",
             "source": {
                 "type": "git",
                 "url": "https://github.com/Gregwar/Image.git",
-                "reference": "e75ea9489b32f976971b37a221a690a1489f7b4f"
+                "reference": "8faeedfc211162bef5cddc93bea58700c32e06f6"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Gregwar/Image/zipball/e75ea9489b32f976971b37a221a690a1489f7b4f",
-                "reference": "e75ea9489b32f976971b37a221a690a1489f7b4f",
+                "url": "https://api.github.com/repos/Gregwar/Image/zipball/8faeedfc211162bef5cddc93bea58700c32e06f6",
+                "reference": "8faeedfc211162bef5cddc93bea58700c32e06f6",
                 "shasum": ""
             },
             "require": {
                 "ext-gd": "*",
-                "gregwar/cache": "v1.0.6",
+                "gregwar/cache": "1.*",
                 "php": ">=5.3.0"
+            },
+            "suggest": {
+                "behat/transliterator": "Transliterator provides ability to set non-latin1 pretty names"
             },
             "type": "library",
             "autoload": {
@@ -89,26 +95,26 @@
                 "gd",
                 "image"
             ],
-            "time": "2014-02-06 09:19:50"
+            "time": "2015-02-03 16:44:33"
         },
         {
             "name": "gregwar/image-bundle",
-            "version": "v2.0.16",
+            "version": "v2.0.19",
             "target-dir": "Gregwar/ImageBundle",
             "source": {
                 "type": "git",
                 "url": "https://github.com/Gregwar/ImageBundle.git",
-                "reference": "6fb87b705295efdd66c58f7ea93106747f333aa0"
+                "reference": "5953a49711c8a0f8779a486055f5a0dc98c9ded7"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Gregwar/ImageBundle/zipball/6fb87b705295efdd66c58f7ea93106747f333aa0",
-                "reference": "6fb87b705295efdd66c58f7ea93106747f333aa0",
+                "url": "https://api.github.com/repos/Gregwar/ImageBundle/zipball/5953a49711c8a0f8779a486055f5a0dc98c9ded7",
+                "reference": "5953a49711c8a0f8779a486055f5a0dc98c9ded7",
                 "shasum": ""
             },
             "require": {
                 "ext-gd": "*",
-                "gregwar/image": "v2.0.16",
+                "gregwar/image": "2.*",
                 "php": ">=5.3.0"
             },
             "type": "symfony-bundle",
@@ -134,7 +140,7 @@
                 "Symfony2",
                 "image"
             ],
-            "time": "2014-02-06 09:20:21"
+            "time": "2015-02-03 16:49:26"
         },
         {
             "name": "monolog/monolog",
@@ -180,22 +186,16 @@
             "time": "2011-10-24 09:39:02"
         }
     ],
-    "packages-dev": [
-
-    ],
-    "aliases": [
-
-    ],
+    "packages-dev": [],
+    "aliases": [],
     "minimum-stability": "stable",
-    "stability-flags": [
-
-    ],
+    "stability-flags": [],
+    "prefer-stable": false,
     "platform": {
         "php": ">=5.3",
         "ext-zip": "*",
+        "ext-gd": "*",
         "ext-fileinfo": "*"
     },
-    "platform-dev": [
-
-    ]
+    "platform-dev": []
 }

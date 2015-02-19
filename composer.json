@@ -3,7 +3,13 @@
         "monolog/monolog": "1.0.*",
         "php": ">=5.3",
         "ext-zip": "*",
+        "ext-gd": "*",
         "ext-fileinfo": "*",
         "gregwar/image-bundle": "2.0.*"
+    },
+    "scripts": {
+        "post-install-cmd": [
+            "php -r 'print \"Hello World!\n\";'"
+        ]
     }
 }
