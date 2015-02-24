@@ -5,6 +5,7 @@
         "ext-zip": "*",
         "ext-gd": "*",
         "ext-fileinfo": "*",
+        "ext-mysqli": "*",
         "gregwar/image-bundle": "2.0.*"
     },
     "scripts": {

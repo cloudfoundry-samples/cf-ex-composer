@@ -4,7 +4,7 @@
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "3f2be89b9e88c90b1149687acfd6965f",
+    "hash": "18e0bba287ec505724449f14810a30e7",
     "packages": [
         {
             "name": "gregwar/cache",
@@ -195,7 +195,8 @@
         "php": ">=5.3",
         "ext-zip": "*",
         "ext-gd": "*",
-        "ext-fileinfo": "*"
+        "ext-fileinfo": "*",
+        "ext-mysqli": "*"
     },
     "platform-dev": []
 }
