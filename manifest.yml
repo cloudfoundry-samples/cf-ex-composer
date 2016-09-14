@@ -1,10 +1,6 @@
 ---
 applications:
-- name: composer-demo
+- name: cf-ex-composer
   memory: 128M
   instances: 1
-  host: composer-demo
   path: .
-  buildpack: https://github.com/dmikusa-pivotal/cf-php-build-pack.git
-  env:
-    BP_DEBUG: "True"
