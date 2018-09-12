@@ -1,7 +1,8 @@
 ---
 applications:
-- name: composer-demo
+- name: cf-ex-composer
   memory: 128M
   path: .
+  buildpack: php_buildpack
   routes:
   - route: composer-demo.cfapps.io
