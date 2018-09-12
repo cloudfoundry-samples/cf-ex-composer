@@ -1,16 +1,16 @@
 {
     "require": {
         "monolog/monolog": "1.0.*",
-        "php": ">=5.3",
+        "php": ">=7.1",
         "ext-zip": "*",
         "ext-gd": "*",
         "ext-fileinfo": "*",
         "ext-mysqli": "*",
-        "gregwar/image-bundle": "2.0.*"
+        "ext-mbstring": "*"
     },
     "scripts": {
         "post-install-cmd": [
-            "php -r 'print \"Hello World!\n\";'"
+            "php -r 'phpinfo();'"
         ]
     }
 }

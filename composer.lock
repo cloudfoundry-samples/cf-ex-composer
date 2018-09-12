@@ -1,147 +1,11 @@
 {
     "_readme": [
         "This file locks the dependencies of your project to a known state",
-        "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "hash": "18e0bba287ec505724449f14810a30e7",
+    "content-hash": "dfa6ea35248029c5d761c4f4ce3b8823",
     "packages": [
-        {
-            "name": "gregwar/cache",
-            "version": "v1.0.10",
-            "target-dir": "Gregwar/Cache",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/Gregwar/Cache.git",
-                "reference": "0a1a02e4943e95f491b3d2395609247385975622"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/Gregwar/Cache/zipball/0a1a02e4943e95f491b3d2395609247385975622",
-                "reference": "0a1a02e4943e95f491b3d2395609247385975622",
-                "shasum": ""
-            },
-            "require": {
-                "php": ">=5.3"
-            },
-            "type": "library",
-            "autoload": {
-                "psr-0": {
-                    "Gregwar\\Cache": ""
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "Gregwar",
-                    "email": "g.passault@gmail.com"
-                }
-            ],
-            "description": "A lightweight file-system cache system",
-            "keywords": [
-                "cache",
-                "caching",
-                "file-system",
-                "system"
-            ],
-            "time": "2014-09-24 11:23:30"
-        },
-        {
-            "name": "gregwar/image",
-            "version": "v2.0.19",
-            "target-dir": "Gregwar/Image",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/Gregwar/Image.git",
-                "reference": "8faeedfc211162bef5cddc93bea58700c32e06f6"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/Gregwar/Image/zipball/8faeedfc211162bef5cddc93bea58700c32e06f6",
-                "reference": "8faeedfc211162bef5cddc93bea58700c32e06f6",
-                "shasum": ""
-            },
-            "require": {
-                "ext-gd": "*",
-                "gregwar/cache": "1.*",
-                "php": ">=5.3.0"
-            },
-            "suggest": {
-                "behat/transliterator": "Transliterator provides ability to set non-latin1 pretty names"
-            },
-            "type": "library",
-            "autoload": {
-                "psr-0": {
-                    "Gregwar\\Image": ""
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "Grégoire Passault",
-                    "email": "g.passault@gmail.com",
-                    "homepage": "http://www.gregwar.com/"
-                }
-            ],
-            "description": "Image handling",
-            "homepage": "https://github.com/Gregwar/Image",
-            "keywords": [
-                "gd",
-                "image"
-            ],
-            "time": "2015-02-03 16:44:33"
-        },
-        {
-            "name": "gregwar/image-bundle",
-            "version": "v2.0.19",
-            "target-dir": "Gregwar/ImageBundle",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/Gregwar/ImageBundle.git",
-                "reference": "5953a49711c8a0f8779a486055f5a0dc98c9ded7"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/Gregwar/ImageBundle/zipball/5953a49711c8a0f8779a486055f5a0dc98c9ded7",
-                "reference": "5953a49711c8a0f8779a486055f5a0dc98c9ded7",
-                "shasum": ""
-            },
-            "require": {
-                "ext-gd": "*",
-                "gregwar/image": "2.*",
-                "php": ">=5.3.0"
-            },
-            "type": "symfony-bundle",
-            "autoload": {
-                "psr-0": {
-                    "Gregwar\\ImageBundle": ""
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "Grégoire Passault",
-                    "email": "g.passault@gmail.com",
-                    "homepage": "http://www.gregwar.com/"
-                }
-            ],
-            "description": "Image handling bundle",
-            "homepage": "https://github.com/Gregwar/ImageBundle",
-            "keywords": [
-                "Symfony2",
-                "image"
-            ],
-            "time": "2015-02-03 16:49:26"
-        },
         {
             "name": "monolog/monolog",
             "version": "1.0.2",
@@ -183,7 +47,7 @@
                 "log",
                 "logging"
             ],
-            "time": "2011-10-24 09:39:02"
+            "time": "2011-10-24T09:39:02+00:00"
         }
     ],
     "packages-dev": [],
@@ -191,12 +55,14 @@
     "minimum-stability": "stable",
     "stability-flags": [],
     "prefer-stable": false,
+    "prefer-lowest": false,
     "platform": {
-        "php": ">=5.3",
+        "php": ">=7.1",
         "ext-zip": "*",
         "ext-gd": "*",
         "ext-fileinfo": "*",
-        "ext-mysqli": "*"
+        "ext-mysqli": "*",
+        "ext-mbstring": "*"
     },
     "platform-dev": []
 }
