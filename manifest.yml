@@ -2,8 +2,6 @@
 applications:
 - name: composer-demo
   memory: 128M
-  instances: 1
-  host: composer-demo
   path: .
-  env:
-    BP_DEBUG: "True"
+  routes:
+  - route: composer-demo.cfapps.io
